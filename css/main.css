@@ -285,7 +285,7 @@ textarea {
      background-color:transparent;
      border:none;
      
-     padding-top: 10px;
+     
 }
 .nav>li>a{
     text-transform:uppercase;
@@ -355,11 +355,7 @@ p.para{
     color:#C4BB6B;
 
 }
-#logo { float: left; 
-    width:30%;
-     height:80%;
-     margin-left: 50px;
-     }
+
 
 #nav
      {
@@ -369,4 +365,21 @@ p.para{
       box-shadow: 0px 1px 10px #5E5E5E;
       position:fixed;
       top:0px;
+       
     }
+
+#navs{
+    width:100%;
+    
+}
+#logo {
+    margin-left: 50px;
+     float: left; 
+     width: 25%;
+     
+}
+#ggs{
+    float:right;
+    width: 50%;
+     
+}
