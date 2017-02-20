@@ -280,3 +280,93 @@ textarea {
         page-break-after: avoid;
     }
 }
+.navbar-default{
+     box-shadow:none;
+     background-color:transparent;
+     border:none;
+     
+     padding-top: 10px;
+}
+.nav>li>a{
+    text-transform:uppercase;
+    color:#ffffff;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px black;
+    -webkit-text-shadow:1px 1px 1px black;
+    -moz-text-shadow:1px 1px 1px black;
+}
+.nav>li>a:hover,.nav>li>a:focus{
+    background-color: transparent;
+}
+
+section#slider{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef2f53+0,7f894a+100 */
+background: #ef2f53; /* Old browsers */
+background: -moz-linear-gradient(top,  #ef2f53 0%, #7f894a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ef2f53 0%,#7f894a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ef2f53 0%,#7f894a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef2f53', endColorstr='#7f894a',GradientType=0 ); /* IE6-9 */
+min-height: 700px;
+padding:55px 55px;
+
+}
+section#slider img{
+    margin: 0 auto;
+}
+body>section{
+    clear:both;
+    padding:55px 50px;
+}
+
+h2,h3{
+    color: #15365b;
+    margin-bottom:30px;
+}
+h2:after,h3:after{
+    content: "";
+    height:5px;
+    background-color:#15365b;
+    width:40px;
+    display:block;
+    margin:0 auto;
+    
+}
+
+section#para{
+    height:500px;
+    background-image:url(../img/para.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2.para{
+        font-size:3.6em;
+        color:#DAF484;
+        font-weight:700;
+        text-shadow: 0px 7px 8px black;
+        -moz-text-shadow:0px 7px 8px black;
+        -webkit-text-shadow:0px 7px 8px black;
+}
+h2.para:after{
+        display: none;
+}
+p.para{
+    font-size:1.6em;
+    color:#C4BB6B;
+
+}
+#logo { float: left; 
+    width:30%;
+     height:80%;
+     margin-left: 50px;
+     }
+
+#nav
+     {
+      background: url(http://4.bp.blogspot.com/-dVtgikk-kOY/UprtswP0yGI/AAAAAAAADag/Og0DtZ8t_oQ/s1600/header+base.png) no-repeat scroll top left;     background-color: none;
+     width:100%;
+     height:66px;
+      box-shadow: 0px 1px 10px #5E5E5E;
+      position:fixed;
+      top:0px;
+    }
