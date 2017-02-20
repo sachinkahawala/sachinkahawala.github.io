@@ -396,3 +396,23 @@ h2.result{
 h2.result:after{
        display: none;
 } 
+section#support{
+    background-color: #6d0019;
+
+}
+h2.support{
+    text-transform:uppercase;
+    color:#ffffff;
+}
+h2.support:after{
+       display: none;
+} 
+#footer{
+    height:130px;
+    background-color: #002DD3;
+    margin-bottom: 0;
+}
+p.footer{
+    color:#ffffff;
+    padding:55px 55px;
+}
