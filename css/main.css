@@ -306,8 +306,9 @@ background: -moz-linear-gradient(top,  #ef2f53 0%, #7f894a 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #ef2f53 0%,#7f894a 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #ef2f53 0%,#7f894a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef2f53', endColorstr='#7f894a',GradientType=0 ); /* IE6-9 */
-min-height: 700px;
+min-height: 50px;
 padding:55px 55px;
+
 
 }
 section#slider img{
@@ -373,7 +374,7 @@ p.para{
     
 }
 #logo {
-    margin-left: 10px;
+    margin-left: 7px;
      float: left; 
      width: 25%;
      
